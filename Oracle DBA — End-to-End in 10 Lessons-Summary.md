@@ -3,7 +3,7 @@ I’ll base the technical direction on **Oracle’s official documentation**, no
 
 Oracle’s current documentation includes Oracle AI Database 26ai as well as the widely used 19c documentation, and Oracle provides platform-specific installation/upgrade guides for Windows, Linux, Solaris, AIX, HP-UX, and other platforms. ([Oracle Documentation][1])
 
-# Oracle DBA — End-to-End in STRICTLY 10 Lessons
+# Oracle DBA — End-to-End in 10 Lessons
 
 ### Course philosophy
 
@@ -1198,16 +1198,16 @@ Finally, combine everything:
 
 The primary references for this course will be Oracle's own documentation:
 
-* [Oracle Database 19c — Install and Upgrade documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/install-and-upgrade.html?utm_source=chatgpt.com)
-* [Oracle AI Database 26ai documentation](https://docs.oracle.com/en/database/oracle/oracle-database/26/?utm_source=chatgpt.com)
-* [Oracle Database Installation Guide for Linux](https://docs.oracle.com/en/database/oracle/oracle-database/19/ladbi/?utm_source=chatgpt.com)
-* [Oracle Database Upgrade Guide](https://docs.oracle.com/en/database/oracle/oracle-database/19/upgrd/?utm_source=chatgpt.com)
-* [Oracle Database Patching documentation](https://docs.oracle.com/en/database/oracle/oracle-database/26/patching.html?utm_source=chatgpt.com)
-* [Oracle Data Pump documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/sutil/oracle-data-pump-overview.html?utm_source=chatgpt.com)
+* [Oracle Database 19c — Install and Upgrade documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/install-and-upgrade.html)
+* [Oracle AI Database 26ai documentation](https://docs.oracle.com/en/database/oracle/oracle-database/26/)
+* [Oracle Database Installation Guide for Linux](https://docs.oracle.com/en/database/oracle/oracle-database/19/ladbi/)
+* [Oracle Database Upgrade Guide](https://docs.oracle.com/en/database/oracle/oracle-database/19/upgrd/)
+* [Oracle Database Patching documentation](https://docs.oracle.com/en/database/oracle/oracle-database/26/patching.html)
+* [Oracle Data Pump documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/sutil/oracle-data-pump-overview.html)
 
 **Important:** Oracle's procedures are release- and platform-specific. For actual production patching/upgrades, the applicable Oracle release documentation, certification information, and the specific patch README must take precedence over generic commands. Oracle explicitly directs administrators to check the patch README and supported platform/product information before applying patches. ([Oracle Documentation][5])
 
-If we follow these **strictly as 10 lessons**, each lesson can then be taught as a hands-on DBA class with **concepts → Oracle commands → Windows procedure → Linux procedure → lab → troubleshooting → interview questions → production scenario**, without adding an 11th lesson.
+If we follow these **10 lessons**, each lesson can then be taught as a hands-on DBA class with **concepts → Oracle commands → Windows procedure → Linux procedure → lab → troubleshooting → interview questions → production scenario**, without adding an 11th lesson.
 
 [1]: https://docs.oracle.com/en/database/oracle/oracle-database/19/install-and-upgrade.html?utm_source=chatgpt.com "Oracle Database 19c - Install and Upgrade"
 [2]: https://docs.oracle.com/en/database/oracle/oracle-database/26/upgrd/oracle-database-release-numbers.html?utm_source=chatgpt.com "About Oracle Database Release Numbers"
